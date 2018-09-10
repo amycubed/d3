@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {"id": "GLOBAL CATASTROPHIC RISKS", "group": 1},
+    {"id": "GLOBAL CATASTROPHIC RISKS (book, Bostrom ed.)", "group": 2},
+    {"id": "SUPERINTELLIGENCE (book, Bostrom)", "group": 2},
+    {"id": "Capacity-building", "group": 2},
+    {"id": "Strategic Analysis", "group": 2},
+    {"id": "Robust positive-value problems", "group": 2},
+    {"id": "NANOTECH", "group": 2},
+    {"id": "BIOTECH", "group": 2},
+    {"id": "GENETICS", "group": 2},   
+    {"id": "DEADLINE", "group": 3},
+    {"id": "ARTIFICIAL INTELLIGENCE", "group": 4},
+    {"id": "TURING (1950 PAPER IN MIND)", "group": 5},
+    {"id": "DEEPMIND (COMPANY)", "group": 5},
+    {"id": "AlphaGo", "group": 5},
+    {"id": "DQN for Atari (Nature Paper)", "group": 5},
+    {"id": "Q-learning", "group": 5}
+  ],
+  "links": [
+    {"source": "ARTIFICIAL INTELLIGENCE", "target": "DEADLINE", "value": 10},
+    {"source": "DEADLINE", "target": "DEADLINE", "value": 5},
+    {"source": "GLOBAL CATASTROPHIC RISKS", "target": "DEADLINE", "value": 10},
+    {"source": "GLOBAL CATASTROPHIC RISKS (book, Bostrom ed.)", "target": "GLOBAL CATASTROPHIC RISKS", "value": 10},
+    {"source": "SUPERINTELLIGENCE (book, Bostrom)", "target": "GLOBAL CATASTROPHIC RISKS", "value": 10},
+    {"source": "Capacity-building", "target": "SUPERINTELLIGENCE (book, Bostrom)", "value": 5},
+    {"source": "Strategic Analysis", "target": "SUPERINTELLIGENCE (book, Bostrom)", "value": 5},
+    {"source": "Robust positive-value problems", "target": "SUPERINTELLIGENCE (book, Bostrom)", "value": 5},
+    {"source": "NANOTECH", "target": "GLOBAL CATASTROPHIC RISKS", "value": 10},
+    {"source": "BIOTECH", "target": "GLOBAL CATASTROPHIC RISKS", "value": 10},
+    {"source": "GENETICS", "target": "GLOBAL CATASTROPHIC RISKS", "value": 10},
+    {"source": "TURING (1950 PAPER IN MIND)", "target": "ARTIFICIAL INTELLIGENCE", "value": 10},
+    {"source": "DEEPMIND (COMPANY)", "target": "ARTIFICIAL INTELLIGENCE", "value": 10},
+    {"source": "AlphaGo", "target": "DEEPMIND (COMPANY)", "value": 5},
+    {"source": "DQN for Atari (Nature Paper)", "target": "DEEPMIND (COMPANY)", "value": 5},
+    {"source": "Q-learning", "target": "DEEPMIND (COMPANY)", "value": 5}
+  ]
+}
